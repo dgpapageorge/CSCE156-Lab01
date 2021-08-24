@@ -16,8 +16,7 @@ month = 1;
 int date  = 23;
 int year  = 1996;
 
-DateTime              bday = 
-		   new DateTime(year, month, date, 0, 0);
+DateTime bday = new DateTime(year, month, date, 0, 0);
 DateTime today = new DateTime();
 
 Period age = new Period(bday, today);
