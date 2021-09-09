@@ -4,7 +4,7 @@ package unl.cse;
  * This is a collection of utilities to compute various statistics on arrays of
  * integers.
  * 
- * @author cbourke
+ * @author dpapageorge
  *
  */
 public class Statistics {
@@ -56,7 +56,6 @@ public class Statistics {
 		return min;
 	}
 
-	//TODO: add documentation
 	public static int getMax(int array[]) {
 		int max = array[0];
 		for (int i = 0;i<array.length;i++)
